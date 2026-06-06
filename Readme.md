@@ -15,7 +15,7 @@ This repository contains the ROS 2 and hardware control stack for the rover, bri
 ## 🛠️ Hardware Stack
 
 The physical rover was designed and fabricated from scratch with a focus on stable power delivery and safety:
-<img src="assets/rover_hardware.jpg" alt="Custom Rover Hardware Chassis" width="500">
+<img src="assets/rover_hardware.jpg" alt="Custom Rover Hardware Chassis" height="500">
 *Figure 2: Custom fabricated differential-drive chassis highlighting the isolated compute and motor power rails.*
 *   **Compute:** NVIDIA Jetson AGX Orin
 *   **Microcontroller:** ESP32
