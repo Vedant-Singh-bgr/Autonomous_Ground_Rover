@@ -1,8 +1,8 @@
 # Autonomous Ground Rover: Edge-AI Perception & Control 🚀
 
-A custom-built, differential-drive autonomous rover powered by an NVIDIA Jetson AGX Orin. This project implements a zero-copy intra-process communication (IPC) pipeline to run heavy vision and depth models concurrently on a single edge GPU, enabling real-time pedestrian tracking and obstacle avoidance.
+A custom-built, differential-drive autonomous rover powered by an NVIDIA Jetson AGX Orin. This project implements a zero-copy intra-process communication (IPC) pipeline to run heavy vision and depth models concurrently on a single edge GPU, enabling real-time **pedestrian tracking** and **obstacle avoidance**.
 <video src="assets/tracking_demo.mp4" autoplay loop muted playsinline width="100%"></video>
-*Figure 1: Complete perception pipeline running Depth Anything V2 and a DETR detector concurrently on the Jetson AGX Orin, tracking dynamic targets via a spatial tracking node.*
+*Figure 1: Complete perception pipeline running Depth Anything V2 and a DETR detector concurrently on the Jetson AGX Orin, tracking the pedestrian.*
 ## 🧠 System Architecture
 
 This repository contains the ROS 2 and hardware control stack for the rover, bridging high-level semantic understanding with low-level motor actuation.
