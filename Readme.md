@@ -15,7 +15,7 @@ This repository contains the ROS 2 and hardware control stack for the rover, bri
 ## 🛠️ Hardware Stack
 
 The physical rover was designed and fabricated from scratch with a focus on stable power delivery and safety:
-![Custom Rover Hardware Chassis](assets/rover_hardware.jpg)
+<img src="assets/rover_hardware.jpg" alt="Custom Rover Hardware Chassis" width="500">
 *Figure 2: Custom fabricated differential-drive chassis highlighting the isolated compute and motor power rails.*
 *   **Compute:** NVIDIA Jetson AGX Orin
 *   **Microcontroller:** ESP32
@@ -39,7 +39,7 @@ The physical rover was designed and fabricated from scratch with a focus on stab
 The edge compute board communicates with the physical motor drivers via an ESP32. You must flash the firmware to the microcontroller before running the ROS 2 pipeline.
 
 1. Open the Arduino IDE.
-2. Load the `esp32_firmware/diff_drive_pwm.ino` sketch.
+2. Load the `Rover_esp32_control/depth_JRD301.ino` sketch.
 3. Ensure your board manager is set to your specific ESP32 module.
 4. Verify the baud rate in the sketch matches the serial configuration in your custom ROS 2 control node (default is 115200).
 5. Connect the ESP32 via USB and click **Upload**.
